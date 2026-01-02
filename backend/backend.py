@@ -68,6 +68,73 @@ class BlueAntAPI:
 
         return results
 
+    def get_project_kpis(self, project_id: str) -> List[Dict]:
+        """Holt KPIs für ein einzelnes Projekt über /projects/{id}/kpis"""
+        try:
+            response = requests.get(
+                f"{self.base_url}/projects/{project_id}/kpis",
+                headers=self.headers,
+                timeout=10
+            )
+            response.raise_for_status()
+            data = response.json()
+            return data.get("kpis", [])
+        except requests.exceptions.RequestException as e:
+            print(f"❌ API-Fehler (KPIs) für Projekt {project_id}: {e}")
+            return []
+
+    def plot_kpis_for_all_projects(self, save_dir: str = "plots"):
+        """
+        Holt alle Projekt-IDs, zieht deren KPIs und erstellt pro Projekt
+        ein Balkendiagramm (KPI-Name vs. Wert). Nicht-numerische Werte
+        werden übersprungen.
+        """
+        try:
+            import matplotlib.pyplot as plt  # type: ignore
+        except ImportError:
+            print("❌ matplotlib nicht installiert. Bitte `pip install matplotlib` ausführen.")
+            return
+
+        os.makedirs(save_dir, exist_ok=True)
+        projects = self.get_project_names_and_ids()
+        if not projects:
+            print("Keine Projekte gefunden.")
+            return
+
+        for project in projects:
+            pid = project["id"]
+            pname = project["name"]
+            kpis = self.get_project_kpis(pid)
+            if not kpis:
+                print(f"⚠️ Keine KPIs für Projekt {pid} ({pname})")
+                continue
+
+            names = []
+            values = []
+            for kpi in kpis:
+                name = kpi.get("name") or kpi.get("id")
+                value = kpi.get("value")
+                # Nur numerische Werte plotten
+                if isinstance(value, (int, float)):
+                    names.append(name)
+                    values.append(value)
+
+            if not values:
+                print(f"⚠️ Keine numerischen KPI-Werte für Projekt {pid} ({pname})")
+                continue
+
+            plt.figure(figsize=(10, 5))
+            plt.bar(names, values, color="#4C8BF5")
+            plt.xticks(rotation=45, ha="right")
+            plt.ylabel("KPI-Wert")
+            plt.title(f"KPIs für Projekt {pname} (ID: {pid})")
+            plt.tight_layout()
+
+            outfile = os.path.join(save_dir, f"project_{pid}_kpis.png")
+            plt.savefig(outfile)
+            plt.close()
+            print(f"✅ KPI-Plot gespeichert: {outfile}")
+
     def save_projects_to_file(self, filename: str = "projects.json"):
         """Speichert Projekte in eine JSON-Datei"""
         data = self.get_projects()
@@ -152,3 +219,6 @@ if __name__ == "__main__":
 
         # Optional: In Datei speichern
         # api.save_projects_to_file("blueant_projects.json")
+
+        #Optional: KPI-Plots erzeugen (PNG-Dateien in ./plots)
+        api.plot_kpis_for_all_projects()
