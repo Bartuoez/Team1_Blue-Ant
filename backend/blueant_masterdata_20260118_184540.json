@@ -1,0 +1,4522 @@
+{
+  "project_statuses": {
+    "status": {
+      "name": "OK",
+      "code": 200
+    },
+    "timestamp": 1768758625128,
+    "projectStatus": [
+      {
+        "id": 10,
+        "text": "A1 - Anfrage/Idee (Gate 0)",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "None",
+        "phase": 1,
+        "noteWhenStatusChanges": "Das Projekt wird angelegt und ggf. die benötigten Ansprechpartner kontaktiert. Bei einem erhöhtem Aufwand sind der Status zu wechseln in \"Auftragsklärung\" und Aufwände zu erfassen.",
+        "sortIdx": 1,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "1",
+        "color": "DeepSkyBlue",
+        "active": true,
+        "default": true
+      },
+      {
+        "id": 525932357,
+        "text": "A2 - Bewertung (Gate 0)",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "None",
+        "phase": 1,
+        "noteWhenStatusChanges": "Die Projektidee wird bewertet und anschließend in die Initiierungsphase überführt.",
+        "sortIdx": 2,
+        "commentMandatory": true,
+        "useForMilestoneTrendAnalysis": false,
+        "completenessCheck": false,
+        "submitStatusReport": true,
+        "followUpId": "14",
+        "color": "Blue",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 525932360,
+        "text": "B1 - Initiierung (Gate 1)",
+        "wtAndPercentCompleteRecording": true,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": true,
+        "action": "None",
+        "phase": 2,
+        "noteWhenStatusChanges": "In dieser Phase erfolgt die Anforderungsanalyse und die Einschätzung des Projektaufwandes.",
+        "sortIdx": 3,
+        "commentMandatory": true,
+        "useForMilestoneTrendAnalysis": false,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "15",
+        "color": "LightSeaGreen",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 296275704,
+        "text": "B2 - Auftragsklärung (Gate 1)",
+        "wtAndPercentCompleteRecording": true,
+        "requestAndReceiptRecording": true,
+        "wtRecordingForPMAndDeputy": true,
+        "action": "None",
+        "phase": 2,
+        "noteWhenStatusChanges": "In dieser Phase werden Inhalte und Aufwände des potenziellen Projektes geklärt.",
+        "sortIdx": 4,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "2",
+        "color": "DarkTurquoise",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 31,
+        "text": "B3 - Planung (Gate 1)",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "None",
+        "phase": 2,
+        "noteWhenStatusChanges": "Diese Phase signalisiert, dass das Angebot dem Kunden vorliegt und auf seine Entscheidung gewartet wird.",
+        "sortIdx": 5,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "5",
+        "color": "Teal",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 357931560,
+        "text": "B4 - Empfohlen (Gate 1)",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": true,
+        "action": "None",
+        "phase": 2,
+        "sortIdx": 6,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "6",
+        "color": "DarkCyan",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 357201137,
+        "text": "B5 - Genehmigt (Gate 2)",
+        "wtAndPercentCompleteRecording": true,
+        "requestAndReceiptRecording": true,
+        "wtRecordingForPMAndDeputy": true,
+        "action": "None",
+        "phase": 2,
+        "noteWhenStatusChanges": "Ihr Projekt wird zur Zeit vom PMO geprüft.",
+        "sortIdx": 7,
+        "commentMandatory": true,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": true,
+        "followUpId": "7",
+        "color": "Green",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 11,
+        "text": "C1 - Umsetzung",
+        "wtAndPercentCompleteRecording": true,
+        "requestAndReceiptRecording": true,
+        "wtRecordingForPMAndDeputy": true,
+        "action": "None",
+        "phase": 3,
+        "noteWhenStatusChanges": "Dieser Status bedingt eine schriftliche Beauftragung durch den Kunden. Es ist der Basisplan VOR Beginn der Umsetzung anzulegen!",
+        "sortIdx": 8,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": true,
+        "followUpId": "8",
+        "color": "DarkGreen",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 32,
+        "text": "C2 - Abnahme",
+        "wtAndPercentCompleteRecording": true,
+        "requestAndReceiptRecording": true,
+        "wtRecordingForPMAndDeputy": true,
+        "action": "None",
+        "phase": 3,
+        "noteWhenStatusChanges": "Dieser Status bedingt eine schriftliche Abnahme durch den Kunden. Es ist der Basisplan VOR Beginn der Umsetzung anzulegen! Innerhalb der Umsetzung kann es zu Zwischenabrechnungen kommen.",
+        "sortIdx": 9,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": true,
+        "submitStatusReport": true,
+        "followUpId": "9",
+        "color": "SlateBlue",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 12,
+        "text": "D1 - Endabrechnung",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "ReduceRessources",
+        "phase": 4,
+        "noteWhenStatusChanges": "Projekte in diesem Status können vollständig abgerechnet werden. Es kommen KEINE Belege oder Kosten mehr hinzu!",
+        "sortIdx": 10,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": true,
+        "submitStatusReport": false,
+        "followUpId": "10",
+        "color": "MediumSpringGreen",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 30,
+        "text": "E1 - Abschluss",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "ReduceRessources",
+        "phase": 5,
+        "noteWhenStatusChanges": "Die Projektabrechnung ist abgeschlossen. Ggf. erfolgt zu einem späteren Zeitpunkt eine Revision oder die sofortige Archivierung.",
+        "sortIdx": 11,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": true,
+        "submitStatusReport": false,
+        "followUpId": "11",
+        "color": "Silver",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 142717278,
+        "text": "F1 - Revision",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "None",
+        "phase": 6,
+        "noteWhenStatusChanges": "Das Projekt wurde überprüft. Kosten, Aufwand, AZ, Dokumente sind vollständig. Die Abrechnungen wurden korrekt durchgeführt. Das Projekt kann nun archiviert werden.",
+        "sortIdx": 12,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "12",
+        "color": "FireBrick",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 13,
+        "text": "Z1 - Gestoppt/Zurückgestellt",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "ReduceRessources",
+        "phase": 6,
+        "noteWhenStatusChanges": "Das Projekt wurde vorzeitig abgebrochen. Eventuell erfolgt eine Fortsetzung. Am Jahresende wird das Projekt archiviert.",
+        "sortIdx": 13,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "99",
+        "color": "Brown",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 33,
+        "text": "Z2 - Abgeschlossen",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "ReduceRessources",
+        "phase": 6,
+        "noteWhenStatusChanges": "Ein internes Projekt wurde erfolgreich abgeschlossen und kann nun archiviert werden.",
+        "sortIdx": 14,
+        "commentMandatory": false,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "13",
+        "color": "Gold",
+        "active": true,
+        "default": false
+      },
+      {
+        "id": 359080576,
+        "text": "Z3 - Abgelehnt",
+        "wtAndPercentCompleteRecording": false,
+        "requestAndReceiptRecording": false,
+        "wtRecordingForPMAndDeputy": false,
+        "action": "ReduceRessources",
+        "phase": 6,
+        "noteWhenStatusChanges": "Das Projekt wurde nicht zur Umsetzung freigegeben.",
+        "sortIdx": 15,
+        "commentMandatory": true,
+        "useForMilestoneTrendAnalysis": true,
+        "completenessCheck": false,
+        "submitStatusReport": false,
+        "followUpId": "98",
+        "active": true,
+        "default": false
+      }
+    ]
+  },
+  "customfield_contexttypes": {
+    "contextTypes": [
+      "Project",
+      "Task",
+      "Ticket",
+      "Person",
+      "Department",
+      "Invoice",
+      "Risk",
+      "VoucherCollective",
+      "Voucher",
+      "Quote",
+      "Proposal",
+      "Todo",
+      "Worktime",
+      "StatusReport",
+      "QuotePosition",
+      "Portfolio",
+      "Program",
+      "Stakeholder",
+      "ProjectResource",
+      "Event"
+    ],
+    "status": {
+      "name": "OK",
+      "code": 200
+    },
+    "timestamp": 1768758625424
+  },
+  "customfield_definitions": {
+    "Project": {
+      "customFields": [
+        {
+          "id": 362059156,
+          "name": "Wichtigkeit",
+          "type": "Double",
+          "reportId": "362059156",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 362059159,
+          "name": "Dringlichkeit",
+          "type": "Double",
+          "reportId": "362059159",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361511695,
+          "name": "Antwort2",
+          "type": "StructuredMemo",
+          "reportId": "361511695",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 358638949,
+          "name": "Vertraulichkeit",
+          "type": "ListBox",
+          "reportId": "Vertraulichkeit",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "358638952",
+              "value": "Vertraulich"
+            },
+            {
+              "key": "358638954",
+              "value": "Intern"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 361099650,
+          "name": "Einfluss",
+          "type": "ListBox",
+          "reportId": "361099650",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "361099695",
+              "value": "+++"
+            },
+            {
+              "key": "361099697",
+              "value": "++"
+            },
+            {
+              "key": "361099699",
+              "value": "N"
+            },
+            {
+              "key": "361099701",
+              "value": "--"
+            },
+            {
+              "key": "361099703",
+              "value": "---"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 361511684,
+          "name": "Frage2",
+          "type": "StaticText",
+          "reportId": "361511684",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 359540581,
+          "name": "Investitionssicherheit",
+          "type": "ListBox",
+          "reportId": "Investitionssicherheit",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "359669847",
+              "value": "gering"
+            },
+            {
+              "key": "360365144",
+              "value": "mittel"
+            },
+            {
+              "key": "360365146",
+              "value": "hoch"
+            },
+            {
+              "key": "360365148",
+              "value": "sehr hoch"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 362461073,
+          "name": "test",
+          "type": "Calculated",
+          "reportId": "362461073",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361511687,
+          "name": "Antwort3",
+          "type": "StructuredMemo",
+          "reportId": "361511687",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 359540578,
+          "name": "Sicherheitsgrad",
+          "type": "ListBox",
+          "reportId": "359540578",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "359669841",
+              "value": "gering"
+            },
+            {
+              "key": "359669843",
+              "value": "mittel"
+            },
+            {
+              "key": "359669845",
+              "value": "hoch"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 358638956,
+          "name": "Freigabe Projektkoordination",
+          "type": "Date",
+          "reportId": "Freigabe_Projektkoordination",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 359540323,
+          "name": "Überschrift",
+          "type": "StaticText",
+          "reportId": "359540323",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 358638959,
+          "name": "Genehmigt vom Vorstand",
+          "type": "Date",
+          "reportId": "Genehmigt_Vorstand",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 360956315,
+          "name": "Clusterzuordnung",
+          "type": "ListBox",
+          "reportId": "360956315",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": "kein Clusterbezug"
+            },
+            {
+              "key": "360956335",
+              "value": "MARisk"
+            },
+            {
+              "key": "360956337",
+              "value": "Innovation"
+            },
+            {
+              "key": "361099075",
+              "value": "Betrieb"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 359669867,
+          "name": "Sicherheits-Level",
+          "type": "ListBox",
+          "reportId": "Sicherheits-Level",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "1",
+              "value": "Rot"
+            },
+            {
+              "key": "2",
+              "value": "Gelb"
+            },
+            {
+              "key": "3",
+              "value": "Grün"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 832814142,
+          "name": "Status Gesamt",
+          "type": "ListBox",
+          "reportId": "858983",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "1",
+              "value": "Rot"
+            },
+            {
+              "key": "2",
+              "value": "Gelb"
+            },
+            {
+              "key": "3",
+              "value": "Grün"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 361511721,
+          "name": "Frage3",
+          "type": "StaticText",
+          "reportId": "361511721",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 359080001,
+          "name": "MyField",
+          "type": "ListBox",
+          "reportId": "359080001",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "1",
+              "value": "Rot"
+            },
+            {
+              "key": "2",
+              "value": "Gelb"
+            },
+            {
+              "key": "3",
+              "value": "Grün"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 359669852,
+          "name": "Pflichtprojekt",
+          "type": "Memo",
+          "reportId": "359669852",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 358638926,
+          "name": "Strategiebeitrag",
+          "type": "ListBox",
+          "reportId": "Strategiebeitrag",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "358638943",
+              "value": "hoch"
+            },
+            {
+              "key": "358638945",
+              "value": "mittel"
+            },
+            {
+              "key": "358638947",
+              "value": "niedrig"
+            },
+            {
+              "key": "808993519",
+              "value": "sehr niedrig"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 359540575,
+          "name": "Innovationsgrad",
+          "type": "ListBox",
+          "reportId": "Innovationsgrad",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "359669835",
+              "value": "gering"
+            },
+            {
+              "key": "359669837",
+              "value": "mittel"
+            },
+            {
+              "key": "359669839",
+              "value": "hoch"
+            },
+            {
+              "key": "360365142",
+              "value": "sehr hoch"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 361511736,
+          "name": "Frage4",
+          "type": "StaticText",
+          "reportId": "361511736",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 360365132,
+          "name": "Score",
+          "type": "Calculated",
+          "reportId": "Score",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361099708,
+          "name": "2. Person",
+          "type": "String",
+          "reportId": "361099708",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361099711,
+          "name": "Einfluss (2)",
+          "type": "ListBox",
+          "reportId": "361099711",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 358400224,
+          "name": "Expertenlevel",
+          "type": "ListBox",
+          "reportId": "358400224",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": "Bitte Experten-Level eintragen ..."
+            },
+            {
+              "key": "358400227",
+              "value": "Anfänger"
+            },
+            {
+              "key": "358400229",
+              "value": "Fortgeschritten"
+            },
+            {
+              "key": "358400231",
+              "value": "Experten"
+            },
+            {
+              "key": "362460605",
+              "value": "Performer"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 362059304,
+          "name": "Wirtschaftlichkeit",
+          "type": "Double",
+          "reportId": "362059304",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361099077,
+          "name": "Erläuterung Cluster",
+          "type": "StructuredMemo",
+          "reportId": "361099077",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814177,
+          "name": "Ergebnisse seit dem letzten Berichtszeitpunkt",
+          "type": "StructuredMemo",
+          "reportId": "859003",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814182,
+          "name": "Ergänzende Informationen zu den nächsten Meilensteinen",
+          "type": "StructuredMemo",
+          "reportId": "859006",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361099714,
+          "name": "Bemerkung (2)",
+          "type": "String",
+          "reportId": "361099714",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814187,
+          "name": "Geplante Schritte bis zum nächsten Berichtszeitpunkt",
+          "type": "StructuredMemo",
+          "reportId": "859009",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832985583,
+          "name": "Plan Aufwand (Projektzeitraum)",
+          "type": "Calculated",
+          "reportId": "832985583",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832985580,
+          "name": "Plan Aufwand (bis heute)",
+          "type": "Calculated",
+          "reportId": "832985580",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361099080,
+          "name": "Hinweis",
+          "type": "StaticText",
+          "reportId": "361099080",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 362460631,
+          "name": "Expertenfaktor",
+          "type": "Double",
+          "reportId": "362460631",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361099095,
+          "name": "Verbundene Projekte",
+          "type": "ListBox",
+          "reportId": "361099095",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "324",
+              "value": "Blue Ant (00016)"
+            },
+            {
+              "key": "254417302",
+              "value": "Blue Ant 5.2SPI-5.3 (00425)"
+            },
+            {
+              "key": "348709161",
+              "value": "CRM-Blue Ant (00502)"
+            },
+            {
+              "key": "786180326",
+              "value": "Digitales Konzept für Digitale Transformation #178 (PRJ-0178)"
+            },
+            {
+              "key": "419345954",
+              "value": "Digitales Lösung für Mobilität #42 (PRJ-0042)"
+            },
+            {
+              "key": "356451667",
+              "value": "Digitales Lösung für Telemedizin #245 (PRJ-0245)"
+            },
+            {
+              "key": "760632070",
+              "value": "Digitales Plattform für Biotechnologie #222 (PRJ-0222)"
+            },
+            {
+              "key": "773887258",
+              "value": "Digitales Plattform für E-Commerce #163 (PRJ-0163)"
+            },
+            {
+              "key": "359941201",
+              "value": "Digitales Plattform für Gesundheitswesen #215 (PRJ-0215)"
+            },
+            {
+              "key": "223639080",
+              "value": "Digitales Plattform für Gesundheitswesen #279 (PRJ-0279)"
+            },
+            {
+              "key": "359671690",
+              "value": "Digitales Plattform für Telemedizin #68 (PRJ-0068)"
+            },
+            {
+              "key": "437742854",
+              "value": "Digitales Programm für Biotechnologie #138 (PRJ-0138)"
+            },
+            {
+              "key": "437743264",
+              "value": "Digitales Programm für Datenanalyse #139 (PRJ-0139)"
+            },
+            {
+              "key": "782754409",
+              "value": "Digitales Projekt für E-Commerce #91 (PRJ-0091)"
+            },
+            {
+              "key": "781699326",
+              "value": "Digitales Projekt für Energieeffizienz #6 (PRJ-0006)"
+            },
+            {
+              "key": "760869396",
+              "value": "Digitales Projekt für Nachhaltigkeit #74 (PRJ-0074)"
+            },
+            {
+              "key": "358637625",
+              "value": "Digitales Projekt für Smart Cities #277 (PRJ-0277)"
+            },
+            {
+              "key": "691105914",
+              "value": "Digitales Projekt für Telemedizin #7 (PRJ-0007)"
+            },
+            {
+              "key": "760746742",
+              "value": "Digitales Strategie für Biotechnologie #101 (PRJ-0101)"
+            },
+            {
+              "key": "760631698",
+              "value": "Digitales Strategie für Datenanalyse #13 (PRJ-0013)"
+            },
+            {
+              "key": "419344634",
+              "value": "Digitales Strategie für Künstliche Intelligenz #124 (PRJ-0124)"
+            },
+            {
+              "key": "762757874",
+              "value": "Digitales Strategie für Künstliche Intelligenz #286 (PRJ-0286)"
+            },
+            {
+              "key": "362748014",
+              "value": "Digitales Strategie für Smart Cities #182 (PRJ-0182)"
+            },
+            {
+              "key": "761602821",
+              "value": "Effizientes Initiative für Bildungstechnologie #292 (PRJ-0292)"
+            },
+            {
+              "key": "785390046",
+              "value": "Effizientes Initiative für Bildungstechnologie #333 (PRJ-0333)"
+            },
+            {
+              "key": "393912234",
+              "value": "Effizientes Initiative für Digitale Transformation #36 (PRJ-0036)"
+            },
+            {
+              "key": "361533314",
+              "value": "Effizientes Konzept für Datenanalyse #246 (PRJ-0246)"
+            },
+            {
+              "key": "763022236",
+              "value": "Effizientes Plattform für Bildungstechnologie #55 (PRJ-0055)"
+            },
+            {
+              "key": "785256873",
+              "value": "Effizientes Plattform für Datenanalyse #328 (PRJ-0328)"
+            },
+            {
+              "key": "359836637",
+              "value": "Effizientes Plattform für E-Commerce #206 (PRJ-0206)"
+            },
+            {
+              "key": "358637300",
+              "value": "Effizientes Plattform für E-Commerce #235 (PRJ-0235)"
+            },
+            {
+              "key": "357953507",
+              "value": "Effizientes Plattform für Klimaschutz #111 (PRJ-0111)"
+            },
+            {
+              "key": "762631774",
+              "value": "Effizientes Plattform für Klimaschutz #152 (PRJ-0152)"
+            },
+            {
+              "key": "361511761",
+              "value": "Effizientes Programm für Blockchain #216 (PRJ-0216)"
+            },
+            {
+              "key": "760869642",
+              "value": "Effizientes Programm für Datenanalyse #130 (PRJ-0130)"
+            },
+            {
+              "key": "762092697",
+              "value": "Effizientes Projekt für Biotechnologie #37 (PRJ-0037)"
+            },
+            {
+              "key": "359537978",
+              "value": "Effizientes Projekt für Blockchain #158 (PRJ-0158)"
+            },
+            {
+              "key": "359539340",
+              "value": "Nachhaltiges Initiative für Industrie 4.0 #288 (PRJ-0288)"
+            },
+            {
+              "key": "781562314",
+              "value": "Effizientes Projekt für Klimaschutz #1 (PRJ-0001)"
+            },
+            {
+              "key": "785389906",
+              "value": "Effizientes Projekt für Künstliche Intelligenz #336 (PRJ-0336)"
+            },
+            {
+              "key": "785389626",
+              "value": "Effizientes Projekt für Mobilität #332 (PRJ-0332)"
+            },
+            {
+              "key": "785390746",
+              "value": "Effizientes Projekt für Smart Cities #263 (PRJ-0263)"
+            },
+            {
+              "key": "786178986",
+              "value": "Effizientes Strategie für Cloud Computing #340 (PRJ-0340)"
+            },
+            {
+              "key": "754078594",
+              "value": "Effizientes Strategie für Energieeffizienz #80 (PRJ-0080)"
+            },
+            {
+              "key": "760992366",
+              "value": "Guter Witz: 24; Besser: 25 (00932)"
+            },
+            {
+              "key": "356716219",
+              "value": "Innovatives Initiative für Blockchain #234 (PRJ-0234)"
+            },
+            {
+              "key": "362754397",
+              "value": "Innovatives Initiative für Cloud Computing #41 (PRJ-0041)"
+            },
+            {
+              "key": "773887801",
+              "value": "Innovatives Initiative für Cybersecurity #167 (PRJ-0167)"
+            },
+            {
+              "key": "361533291",
+              "value": "Innovatives Initiative für Datenanalyse #14 (PRJ-0014)"
+            },
+            {
+              "key": "783811129",
+              "value": "Innovatives Initiative für Klimaschutz #305 (PRJ-0305)"
+            },
+            {
+              "key": "358558509",
+              "value": "Innovatives Konzept für Cybersecurity #214 (PRJ-0214)"
+            },
+            {
+              "key": "359672355",
+              "value": "Innovatives Konzept für Erneuerbare Energien #34 (PRJ-0034)"
+            },
+            {
+              "key": "357718557",
+              "value": "Innovatives Konzept für Logistik #357 (PRJ-0357)"
+            },
+            {
+              "key": "781562754",
+              "value": "Innovatives Konzept für Mobilität #5 (PRJ-0005)"
+            },
+            {
+              "key": "762757734",
+              "value": "Innovatives Konzept für Nachhaltigkeit #285 (PRJ-0285)"
+            },
+            {
+              "key": "782754586",
+              "value": "Innovatives Lösung für Erneuerbare Energien #92 (PRJ-0092)"
+            },
+            {
+              "key": "358975064",
+              "value": "Innovatives Lösung für Künstliche Intelligenz #255 (PRJ-0255)"
+            },
+            {
+              "key": "762631474",
+              "value": "Innovatives Lösung für Telemedizin #271 (PRJ-0271)"
+            },
+            {
+              "key": "362077236",
+              "value": "Innovatives Plattform für Biotechnologie #76 (PRJ-0076)"
+            },
+            {
+              "key": "361371193",
+              "value": "Innovatives Plattform für Digitale Transformation #135 (PRJ-0135)"
+            },
+            {
+              "key": "361135228",
+              "value": "Innovatives Plattform für Nachhaltigkeit #39 (PRJ-0039)"
+            },
+            {
+              "key": "762505517",
+              "value": "Innovatives Programm für Bildungstechnologie #295 (PRJ-0295)"
+            },
+            {
+              "key": "760869259",
+              "value": "Innovatives Programm für Erneuerbare Energien #257 (PRJ-0257)"
+            },
+            {
+              "key": "785389486",
+              "value": "Innovatives Programm für Klimaschutz #326 (PRJ-0326)"
+            },
+            {
+              "key": "785257006",
+              "value": "Innovatives Projekt für Blockchain #331 (PRJ-0331)"
+            },
+            {
+              "key": "357716846",
+              "value": "Innovatives Projekt für Cybersecurity #350 (PRJ-0350)"
+            },
+            {
+              "key": "777472364",
+              "value": "Innovatives Projekt für Mobilität #107 (PRJ-0107)"
+            },
+            {
+              "key": "762092563",
+              "value": "Innovatives Strategie für Erneuerbare Energien #38 (PRJ-0038)"
+            },
+            {
+              "key": "760631574",
+              "value": "Innovatives Strategie für Industrie 4.0 #275 (PRJ-0275)"
+            },
+            {
+              "key": "785389766",
+              "value": "Intelligentes Initiative für Blockchain #334 (PRJ-0334)"
+            },
+            {
+              "key": "362521097",
+              "value": "Intelligentes Initiative für Erneuerbare Energien #59 (PRJ-0059)"
+            },
+            {
+              "key": "362459274",
+              "value": "Intelligentes Initiative für Mobilität #238 (PRJ-0238)"
+            },
+            {
+              "key": "362461742",
+              "value": "Intelligentes Konzept für Cloud Computing #131 (PRJ-0131)"
+            },
+            {
+              "key": "357994578",
+              "value": "Intelligentes Lösung für Automatisierung #159 (PRJ-0159)"
+            },
+            {
+              "key": "357994695",
+              "value": "Digitales Lösung für E-Commerce #118 (PRJ-0118)"
+            },
+            {
+              "key": "357994884",
+              "value": "Intelligentes Konzept für Biotechnologie #119 (PRJ-0119)"
+            },
+            {
+              "key": "359539603",
+              "value": "Intelligentes Lösung für Biotechnologie #203 (PRJ-0203)"
+            },
+            {
+              "key": "760746014",
+              "value": "Intelligentes Plattform für Digitale Transformation #31 (PRJ-0031)"
+            },
+            {
+              "key": "357920968",
+              "value": "Intelligentes Plattform für Energieeffizienz #291 (PRJ-0291)"
+            },
+            {
+              "key": "432648874",
+              "value": "Intelligentes Plattform für Mobilität #70 (PRJ-0070)"
+            },
+            {
+              "key": "785390186",
+              "value": "Intelligentes Programm für Digitale Transformation #335 (PRJ-0335)"
+            },
+            {
+              "key": "358397196",
+              "value": "Intelligentes Projekt für Logistik #72 (PRJ-0072)"
+            },
+            {
+              "key": "358976945",
+              "value": "Kreatives Initiative für Bildungstechnologie #160 (PRJ-0160)"
+            },
+            {
+              "key": "358977195",
+              "value": "Innovatives Lösung für Automatisierung #290 (PRJ-0290)"
+            },
+            {
+              "key": "358977062",
+              "value": "Intelligentes Strategie für Digitale Transformation #289 (PRJ-0289)"
+            },
+            {
+              "key": "785389186",
+              "value": "Kreatives Initiative für E-Commerce #330 (PRJ-0330)"
+            },
+            {
+              "key": "358138986",
+              "value": "Kreatives Initiative für Gesundheitswesen #30 (PRJ-0030)"
+            },
+            {
+              "key": "760746986",
+              "value": "Kreatives Initiative für Logistik #310 (PRJ-0310)"
+            },
+            {
+              "key": "360955874",
+              "value": "Kreatives Initiative für Smart Cities #105 (PRJ-0105)"
+            },
+            {
+              "key": "785389048",
+              "value": "Kreatives Initiative für Smart Cities #329 (PRJ-0329)"
+            },
+            {
+              "key": "360242342",
+              "value": "Kreatives Konzept für Mobilität #25 (PRJ-0025)"
+            },
+            {
+              "key": "362720734",
+              "value": "Kreatives Lösung für Industrie 4.0 #136 (PRJ-0136)"
+            },
+            {
+              "key": "358975658",
+              "value": "Kreatives Lösung für Industrie 4.0 #360 (PRJ-0360)"
+            },
+            {
+              "key": "560354014",
+              "value": "Kreatives Lösung für Mobilität #140 (PRJ-0140)"
+            },
+            {
+              "key": "786179126",
+              "value": "Kreatives Lösung für Nachhaltigkeit #339 (PRJ-0339)"
+            },
+            {
+              "key": "361100434",
+              "value": "Kreatives Plattform für Biotechnologie #237 (PRJ-0237)"
+            },
+            {
+              "key": "762759805",
+              "value": "Kreatives Plattform für Nachhaltigkeit #197 (PRJ-0197)"
+            },
+            {
+              "key": "358559076",
+              "value": "Kreatives Programm für Blockchain #351 (PRJ-0351)"
+            },
+            {
+              "key": "357713270",
+              "value": "Kreatives Programm für Datenanalyse #236 (PRJ-0236)"
+            },
+            {
+              "key": "760415834",
+              "value": "Kreatives Programm für Datenanalyse #82 (PRJ-0082)"
+            },
+            {
+              "key": "362721122",
+              "value": "Kreatives Programm für Energieeffizienz #137 (PRJ-0137)"
+            },
+            {
+              "key": "357712106",
+              "value": "Kreatives Programm für Gesundheitswesen #115 (PRJ-0115)"
+            },
+            {
+              "key": "357719765",
+              "value": "Digitales Konzept für Klimaschutz #348 (PRJ-0348)"
+            },
+            {
+              "key": "360243300",
+              "value": "Kreatives Programm für Logistik #173 (PRJ-0173)"
+            },
+            {
+              "key": "361510094",
+              "value": "Kreatives Programm für Mobilität #265 (PRJ-0265)"
+            },
+            {
+              "key": "781562877",
+              "value": "Kreatives Projekt für Datenanalyse #12 (PRJ-0012)"
+            },
+            {
+              "key": "360513654",
+              "value": "Kreatives Projekt für E-Commerce #223 (PRJ-0223)"
+            },
+            {
+              "key": "763022538",
+              "value": "Kreatives Projekt für Klimaschutz #196 (PRJ-0196)"
+            },
+            {
+              "key": "760632074",
+              "value": "Kreatives Projekt für Künstliche Intelligenz #221 (PRJ-0221)"
+            },
+            {
+              "key": "762092553",
+              "value": "Kreatives Projekt für Logistik #84 (PRJ-0084)"
+            },
+            {
+              "key": "362747567",
+              "value": "Kreatives Strategie für E-Commerce #181 (PRJ-0181)"
+            },
+            {
+              "key": "362747861",
+              "value": "Digitales Konzept für Cloud Computing #183 (PRJ-0183)"
+            },
+            {
+              "key": "781562157",
+              "value": "Nachhaltiges Initiative für Blockchain #27 (PRJ-0027)"
+            },
+            {
+              "key": "785256626",
+              "value": "Nachhaltiges Initiative für Blockchain #325 (PRJ-0325)"
+            },
+            {
+              "key": "760631946",
+              "value": "Nachhaltiges Initiative für Künstliche Intelligenz #220 (PRJ-0220)"
+            },
+            {
+              "key": "361510634",
+              "value": "Nachhaltiges Konzept für Automatisierung #356 (PRJ-0356)"
+            },
+            {
+              "key": "760415654",
+              "value": "Nachhaltiges Konzept für Blockchain #145 (PRJ-0145)"
+            },
+            {
+              "key": "773887678",
+              "value": "Nachhaltiges Konzept für Cloud Computing #166 (PRJ-0166)"
+            },
+            {
+              "key": "783812027",
+              "value": "Nachhaltiges Konzept für Digitale Transformation #8 (PRJ-0008)"
+            },
+            {
+              "key": "523253554",
+              "value": "Nachhaltiges Konzept für Gesundheitswesen #306 (PRJ-0306)"
+            },
+            {
+              "key": "760415957",
+              "value": "Nachhaltiges Konzept für Industrie 4.0 #309 (PRJ-0309)"
+            },
+            {
+              "key": "760631822",
+              "value": "Nachhaltiges Plattform für Logistik #219 (PRJ-0219)"
+            },
+            {
+              "key": "762379334",
+              "value": "Nachhaltiges Plattform für Mobilität #299 (PRJ-0299)"
+            },
+            {
+              "key": "360953964",
+              "value": "Nachhaltiges Plattform für Nachhaltigkeit #128 (PRJ-0128)"
+            },
+            {
+              "key": "785389326",
+              "value": "Nachhaltiges Plattform für Nachhaltigkeit #327 (PRJ-0327)"
+            },
+            {
+              "key": "560354794",
+              "value": "Nachhaltiges Programm für Cloud Computing #141 (PRJ-0141)"
+            },
+            {
+              "key": "781562034",
+              "value": "Nachhaltiges Programm für Energieeffizienz #28 (PRJ-0028)"
+            },
+            {
+              "key": "760746008",
+              "value": "Nachhaltiges Programm für Gesundheitswesen #97 (PRJ-0097)"
+            },
+            {
+              "key": "762093314",
+              "value": "Nachhaltiges Programm für Industrie 4.0 #83 (PRJ-0083)"
+            },
+            {
+              "key": "358328761",
+              "value": "Nachhaltiges Programm für Nachhaltigkeit #253 (PRJ-0253)"
+            },
+            {
+              "key": "357954634",
+              "value": "Nachhaltiges Projekt für Automatisierung #120 (PRJ-0120)"
+            },
+            {
+              "key": "357952391",
+              "value": "Nachhaltiges Projekt für Cloud Computing #78 (PRJ-0078)"
+            },
+            {
+              "key": "358331532",
+              "value": "Nachhaltiges Projekt für Cybersecurity #122 (PRJ-0122)"
+            },
+            {
+              "key": "360242208",
+              "value": "Nachhaltiges Projekt für Digitale Transformation #23 (PRJ-0023)"
+            },
+            {
+              "key": "357980788",
+              "value": "Nachhaltiges Projekt für Gesundheitswesen #113 (PRJ-0113)"
+            },
+            {
+              "key": "773887315",
+              "value": "Nachhaltiges Projekt für Klimaschutz #165 (PRJ-0165)"
+            },
+            {
+              "key": "807154218",
+              "value": "Nachhaltiges Projekt für Smart Cities #258 (PRJ-0258)"
+            },
+            {
+              "key": "783943326",
+              "value": "Nachhaltiges Strategie für Digitale Transformation #4 (PRJ-0004)"
+            },
+            {
+              "key": "762758608",
+              "value": "Nachhaltiges Strategie für E-Commerce #168 (PRJ-0168)"
+            },
+            {
+              "key": "762757857",
+              "value": "Nachhaltiges Strategie für Künstliche Intelligenz #343 (PRJ-0343)"
+            },
+            {
+              "key": "357715324",
+              "value": "Nachhaltiges Strategie für Smart Cities #110 (PRJ-0110)"
+            },
+            {
+              "key": "357715444",
+              "value": "Nachhaltiges Programm für Künstliche Intelligenz #109 (PRJ-0109)"
+            },
+            {
+              "key": "760991254",
+              "value": "yuuvis _äöü,;!?ß (00930)"
+            },
+            {
+              "key": "357995390",
+              "value": "Zukunftsweisendes Initiative für Cybersecurity #213 (PRJ-0213)"
+            },
+            {
+              "key": "357908923",
+              "value": "Zukunftsweisendes Initiative für E-Commerce #249 (PRJ-0249)"
+            },
+            {
+              "key": "361514834",
+              "value": "Zukunftsweisendes Initiative für Gesundheitswesen #33 (PRJ-0033)"
+            },
+            {
+              "key": "760746135",
+              "value": "Zukunftsweisendes Initiative für Logistik #281 (PRJ-0281)"
+            },
+            {
+              "key": "761602678",
+              "value": "Zukunftsweisendes Initiative für Mobilität #301 (PRJ-0301)"
+            },
+            {
+              "key": "760746258",
+              "value": "Zukunftsweisendes Initiative für Mobilität #99 (PRJ-0099)"
+            },
+            {
+              "key": "362752226",
+              "value": "Zukunftsweisendes Konzept für Digitale Transformation #224 (PRJ-0224)"
+            },
+            {
+              "key": "762215794",
+              "value": "Zukunftsweisendes Konzept für Digitale Transformation #304 (PRJ-0304)"
+            },
+            {
+              "key": "762216416",
+              "value": "Zukunftsweisendes Konzept für E-Commerce #300 (PRJ-0300)"
+            },
+            {
+              "key": "362753394",
+              "value": "Zukunftsweisendes Konzept für Erneuerbare Energien #144 (PRJ-0144)"
+            },
+            {
+              "key": "362744994",
+              "value": "Zukunftsweisendes Konzept für Gesundheitswesen #116 (PRJ-0116)"
+            },
+            {
+              "key": "773887439",
+              "value": "Zukunftsweisendes Lösung für Cloud Computing #164 (PRJ-0164)"
+            },
+            {
+              "key": "761603059",
+              "value": "Zukunftsweisendes Lösung für Industrie 4.0 #307 (PRJ-0307)"
+            },
+            {
+              "key": "357981594",
+              "value": "Zukunftsweisendes Lösung für Künstliche Intelligenz #247 (PRJ-0247)"
+            },
+            {
+              "key": "762093474",
+              "value": "Zukunftsweisendes Lösung für Mobilität #303 (PRJ-0303)"
+            },
+            {
+              "key": "359670597",
+              "value": "Zukunftsweisendes Lösung für Nachhaltigkeit #359 (PRJ-0359)"
+            },
+            {
+              "key": "762758914",
+              "value": "Zukunftsweisendes Lösung für Smart Cities #270 (PRJ-0270)"
+            },
+            {
+              "key": "783943626",
+              "value": "Zukunftsweisendes Plattform für Energieeffizienz #94 (PRJ-0094)"
+            },
+            {
+              "key": "357720979",
+              "value": "Zukunftsweisendes Plattform für Logistik #198 (PRJ-0198)"
+            },
+            {
+              "key": "786180466",
+              "value": "Zukunftsweisendes Programm für Cybersecurity #179 (PRJ-0179)"
+            },
+            {
+              "key": "761603194",
+              "value": "Zukunftsweisendes Programm für Digitale Transformation #157 (PRJ-0157)"
+            },
+            {
+              "key": "359079411",
+              "value": "Zukunftsweisendes Programm für Klimaschutz #225 (PRJ-0225)"
+            },
+            {
+              "key": "359095704",
+              "value": "Zukunftsweisendes Projekt für Automatisierung #256 (PRJ-0256)"
+            },
+            {
+              "key": "358571979",
+              "value": "Effizientes Projekt für Klimaschutz #44 (PRJ-0044)"
+            },
+            {
+              "key": "358922858",
+              "value": "Effizientes Strategie für Automatisierung #51 (PRJ-0051)"
+            },
+            {
+              "key": "357977071",
+              "value": "Kreatives Projekt für Automatisierung #43 (PRJ-0043)"
+            },
+            {
+              "key": "358744877",
+              "value": "Zukunftsweisendes Programm für Erneuerbare Energien #45 (PRJ-0045)"
+            },
+            {
+              "key": "360817087",
+              "value": "Zukunftsweisendes Projekt für Energieeffizienz #81 (PRJ-0081)"
+            },
+            {
+              "key": "785256749",
+              "value": "Zukunftsweisendes Strategie für Mobilität #324 (PRJ-0324)"
+            },
+            {
+              "key": "361695535",
+              "value": "Zukunftsweisendes Strategie für Nachhaltigkeit #40 (PRJ-0040)"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 832814192,
+          "name": "Kritische Themen/ Risiken inkl. geplante Gegenmaßnahmen",
+          "type": "StructuredMemo",
+          "reportId": "859012",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814199,
+          "name": "Beschreibung des Entscheidungsbedarfs",
+          "type": "StructuredMemo",
+          "reportId": "859018",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814197,
+          "name": "Entscheidungsbedarfe",
+          "type": "Boolean",
+          "reportId": "859015",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 838167342,
+          "name": "IST-Kosten",
+          "type": "Double",
+          "reportId": "838167342",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832985595,
+          "name": "Ist Fertigstellung",
+          "type": "Calculated",
+          "reportId": "832985595",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 838167339,
+          "name": "Plankosten",
+          "type": "Calculated",
+          "reportId": "838167339",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832985592,
+          "name": "Plan Fertigstellung",
+          "type": "Calculated",
+          "reportId": "832985592",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 362754175,
+          "name": "Referenz-Projekt",
+          "type": "Boolean",
+          "reportId": "362754175",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814146,
+          "name": "Fortschritt",
+          "type": "Calculated",
+          "reportId": "858995",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814150,
+          "name": "Erläuterung Status",
+          "type": "StructuredMemo",
+          "reportId": "859106",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361511659,
+          "name": "Hinweis zum DSGVO",
+          "type": "StaticText",
+          "reportId": "361511659",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361511655,
+          "name": "Hinweis zum DSG-VO",
+          "type": "String",
+          "reportId": "361511655",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 358418867,
+          "name": "Relevanz Reporting",
+          "type": "ListBox",
+          "reportId": "Relevanz_Reporting",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": "--bitte wählen--"
+            },
+            {
+              "key": "358418870",
+              "value": "Ja"
+            },
+            {
+              "key": "358418872",
+              "value": "Nein"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 361877735,
+          "name": "Hinweis_2",
+          "type": "StaticText",
+          "reportId": "361877735",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 357720612,
+          "name": "Projektranking",
+          "type": "Long",
+          "reportId": "357720612",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814165,
+          "name": "Erfassungsdatum",
+          "type": "Date",
+          "reportId": "858998",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 838167426,
+          "name": "Ist Aufwand",
+          "type": "Double",
+          "reportId": "838167426",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361511675,
+          "name": "Antwort1",
+          "type": "StructuredMemo",
+          "reportId": "361511675",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361511668,
+          "name": "Antwort4",
+          "type": "StructuredMemo",
+          "reportId": "361511668",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814171,
+          "name": "Status  Zeit",
+          "type": "ListBox",
+          "reportId": "858989",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "1",
+              "value": "Rot"
+            },
+            {
+              "key": "2",
+              "value": "Gelb"
+            },
+            {
+              "key": "3",
+              "value": "Grün"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 532205505,
+          "name": "Klassifikation",
+          "type": "ListBox",
+          "reportId": "532205505",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "532205508",
+              "value": "initial project"
+            },
+            {
+              "key": "532205510",
+              "value": "follow-up-project"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 358380582,
+          "name": "PMO-Relevanz",
+          "type": "Boolean",
+          "reportId": "358380582",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361099647,
+          "name": "1. Person",
+          "type": "String",
+          "reportId": "361099647",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814169,
+          "name": "Status Ergebnis",
+          "type": "ListBox",
+          "reportId": "858986",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "1",
+              "value": "Rot"
+            },
+            {
+              "key": "2",
+              "value": "Gelb"
+            },
+            {
+              "key": "3",
+              "value": "Grün"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 361099641,
+          "name": "Stakeholder-Übersicht",
+          "type": "StaticText",
+          "reportId": "361099641",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 361511665,
+          "name": "Frage1",
+          "type": "StaticText",
+          "reportId": "361511665",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 838167179,
+          "name": "Projektbudget",
+          "type": "Calculated",
+          "reportId": "838167179",
+          "required": false,
+          "active": true,
+          "contextType": "Project"
+        },
+        {
+          "id": 832814173,
+          "name": "Status Aufwand",
+          "type": "ListBox",
+          "reportId": "858992",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "1",
+              "value": "Rot"
+            },
+            {
+              "key": "2",
+              "value": "Gelb"
+            },
+            {
+              "key": "3",
+              "value": "Grün"
+            }
+          ],
+          "contextType": "Project"
+        },
+        {
+          "id": 359254934,
+          "name": "Ampel TEST",
+          "type": "ListBox",
+          "reportId": "359254934",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "1",
+              "value": "Rot"
+            },
+            {
+              "key": "2",
+              "value": "Gelb"
+            },
+            {
+              "key": "3",
+              "value": "Grün"
+            }
+          ],
+          "contextType": "Project"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758625531
+    },
+    "Task": {
+      "customFields": [
+        {
+          "id": 362459115,
+          "name": "Ergbenisobjekt",
+          "type": "ListBox",
+          "reportId": "362459115",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "362459135",
+              "value": "Ergebnis 1"
+            },
+            {
+              "key": "362459137",
+              "value": "Ergebnis 2"
+            },
+            {
+              "key": "null",
+              "value": "Ergebnistyp"
+            }
+          ],
+          "contextType": "Task"
+        },
+        {
+          "id": 358180991,
+          "name": "Lieferant",
+          "type": "String",
+          "reportId": "358180991",
+          "required": false,
+          "active": true,
+          "contextType": "Task"
+        },
+        {
+          "id": 358180994,
+          "name": "Abnahme am",
+          "type": "DateTime",
+          "reportId": "358180994",
+          "required": false,
+          "active": true,
+          "contextType": "Task"
+        },
+        {
+          "id": 362459105,
+          "name": "Auswirkung RUN PE",
+          "type": "Double",
+          "reportId": "362459105",
+          "required": false,
+          "active": true,
+          "contextType": "Task"
+        },
+        {
+          "id": 358974814,
+          "name": "MS-Typ",
+          "type": "ListBox",
+          "reportId": "358974814",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "358974819",
+              "value": "Abnahme"
+            },
+            {
+              "key": "358974821",
+              "value": "Freigabe"
+            },
+            {
+              "key": "358974817",
+              "value": "QualityGate"
+            },
+            {
+              "key": "null",
+              "value": "Auswahl"
+            }
+          ],
+          "contextType": "Task"
+        },
+        {
+          "id": 358180997,
+          "name": "Abgenommen durch",
+          "type": "ListBox",
+          "reportId": "358180997",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "20",
+              "value": "Altmuth, Norman (0003/I)"
+            },
+            {
+              "key": "21",
+              "value": "Bach, Berno (0009/I)"
+            },
+            {
+              "key": "260339919",
+              "value": "Beier, Oliver (1013/I)"
+            },
+            {
+              "key": "27703963",
+              "value": "Benedix, Ulrike (27703963)"
+            },
+            {
+              "key": "146662324",
+              "value": "Düsentrieb, Daniel (0019/I)"
+            },
+            {
+              "key": "27703965",
+              "value": "Eichler, Thomas (27703965)"
+            },
+            {
+              "key": "109565676",
+              "value": "Fäth, Sven (0014/I)"
+            },
+            {
+              "key": "233686919",
+              "value": "Finsch, Mathias (1009/I)"
+            },
+            {
+              "key": "10",
+              "value": "Flink, Micha (0006/I)"
+            },
+            {
+              "key": "567056476",
+              "value": "Gruppe_1, HTW (HTW_SS_2025_Gruppe_01/I)"
+            },
+            {
+              "key": "567056512",
+              "value": "Gruppe_2, HTW (HTW_SS_2024_Gruppe_02/I)"
+            },
+            {
+              "key": "567056554",
+              "value": "Gruppe_3, HTW (HTW_SS_2025_Gruppe_03/I)"
+            },
+            {
+              "key": "567056548",
+              "value": "Gruppe_4, HTW (HTW_SS_2025_Gruppe_04/I)"
+            },
+            {
+              "key": "567056634",
+              "value": "Gruppe_5, HTW (HTW_SS_2025_Gruppe_05/I)"
+            },
+            {
+              "key": "567056624",
+              "value": "Gruppe_7, HTW (HTW_SS_2025_Gruppe_07/I)"
+            },
+            {
+              "key": "360676578",
+              "value": "Hurtig, Mike (E1001/E)"
+            },
+            {
+              "key": "42334168",
+              "value": "Kahn, Katze (0011/I)"
+            },
+            {
+              "key": "361511615",
+              "value": "Kontakt, Max (361511615)"
+            },
+            {
+              "key": "567031289",
+              "value": "Kranewitz, Dirk (121179/I)"
+            },
+            {
+              "key": "6",
+              "value": "Kuban, Kirk (0001/I)"
+            },
+            {
+              "key": "48830302",
+              "value": "Kuschel, Claudia (1003/I)"
+            },
+            {
+              "key": "36040483",
+              "value": "Mühsam, Stephanie (0010/I)"
+            },
+            {
+              "key": "1",
+              "value": "Mustermann, Hans (1001/I)"
+            },
+            {
+              "key": "22374358",
+              "value": "Mustermann, Max (22374358)"
+            },
+            {
+              "key": "9",
+              "value": "Recht, Asmus (1005/I)"
+            },
+            {
+              "key": "252454063",
+              "value": "Richter, Julia (1012/I)"
+            },
+            {
+              "key": "311465429",
+              "value": "Rüdiger, David (010808/I)"
+            },
+            {
+              "key": "55442034",
+              "value": "Sahne, Dani (0012/I)"
+            },
+            {
+              "key": "49505870",
+              "value": "Sonne, Simone (0017/I)"
+            },
+            {
+              "key": "4",
+              "value": "Sorglos, Sabine (0008/I)"
+            },
+            {
+              "key": "5",
+              "value": "Taste, Tommy (0002/I)"
+            },
+            {
+              "key": "64909209",
+              "value": "the Bike, Martin (0016/I)"
+            },
+            {
+              "key": "252453908",
+              "value": "von Hannover, Linda (1010/I)"
+            },
+            {
+              "key": "114247169",
+              "value": "von Pommern, Henryk (0018/I)"
+            },
+            {
+              "key": "747569785",
+              "value": "WiSe_23/24_Gruppe_1, HTW (WiSe_2023/24_001/I)"
+            },
+            {
+              "key": "747569825",
+              "value": "WiSe_23/24_Gruppe_2, HTW (WiSe_2023/24_002/I)"
+            },
+            {
+              "key": "747569865",
+              "value": "WiSe_23/24_Gruppe_3, HTW (WiSe_2023/24_003/I)"
+            },
+            {
+              "key": "747569905",
+              "value": "WiSe_23/24_Gruppe_4, HTW (WiSe_2023/24_004/I)"
+            },
+            {
+              "key": "747569945",
+              "value": "WiSe_23/24_Gruppe_5, HTW (WiSe_2023/24_005/I)"
+            },
+            {
+              "key": "747569985",
+              "value": "WiSe_23/24_Gruppe_6, HTW (WiSe_2023/24_006/I)"
+            },
+            {
+              "key": "747570025",
+              "value": "WiSe_23/24_Gruppe_7, HTW (WiSe_2023/24_007/I)"
+            },
+            {
+              "key": "747570065",
+              "value": "WiSe_23/24_Gruppe_8, HTW (WiSe_2023/24_008/I)"
+            },
+            {
+              "key": "667947836",
+              "value": "WiSe_25/26_1, HTW (HTW_WiSe_25/26_1/I)"
+            },
+            {
+              "key": "667947873",
+              "value": "WiSe_25/26_2, HTW (HTW_WiSe_25/26_2/I)"
+            },
+            {
+              "key": "667947914",
+              "value": "WiSe_25/26_3, HTW (HTW_WiSe_25/26_3/I)"
+            },
+            {
+              "key": "667947950",
+              "value": "WiSe_25/26_4, HTW (HTW_WiSe_25/26_4/I)"
+            },
+            {
+              "key": "667947986",
+              "value": "WiSe_25/26_5, HTW (HTW_WiSe_25/26_5/I)"
+            },
+            {
+              "key": "667947910",
+              "value": "WiSe_25/26_6, HTW (HTW_WiSe_25/26_6/I)"
+            },
+            {
+              "key": "567056714",
+              "value": "WiSe_25/26_7, HTW (HTW_WiSe_25/26_7/I)"
+            },
+            {
+              "key": "623138934",
+              "value": "WiSe_25/26_8, HTW (HTW_WiSe_25/26_8/I)"
+            },
+            {
+              "key": "13",
+              "value": "Zahnweh, Jörg (1002/I)"
+            }
+          ],
+          "contextType": "Task"
+        },
+        {
+          "id": 356730958,
+          "name": "Testbeschreibung",
+          "type": "StructuredMemo",
+          "reportId": "356730958",
+          "required": false,
+          "active": true,
+          "contextType": "Task"
+        },
+        {
+          "id": 362459108,
+          "name": "Auswirkung RUN Kosten",
+          "type": "Double",
+          "reportId": "362459108",
+          "required": false,
+          "active": true,
+          "contextType": "Task"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758625817
+    },
+    "Ticket": {
+      "customFields": [
+        {
+          "id": 360512459,
+          "name": "Anforderungswert",
+          "type": "Calculated",
+          "reportId": "360512459",
+          "required": false,
+          "active": true,
+          "contextType": "Ticket"
+        },
+        {
+          "id": 359080554,
+          "name": "Empfehlung",
+          "type": "ListBox",
+          "reportId": "359080554",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "359080557",
+              "value": "empfohlen"
+            },
+            {
+              "key": "359080559",
+              "value": "nicht empfohlen"
+            },
+            {
+              "key": "359080561",
+              "value": "zurückgestellt"
+            }
+          ],
+          "contextType": "Ticket"
+        },
+        {
+          "id": 360512450,
+          "name": "Strategischer Beitrag",
+          "type": "ListBox",
+          "reportId": "360512450",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "360512453",
+              "value": "hoch"
+            },
+            {
+              "key": "360512455",
+              "value": "mittel"
+            },
+            {
+              "key": "360512457",
+              "value": "gering"
+            }
+          ],
+          "contextType": "Ticket"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758626069
+    },
+    "Person": {
+      "customFields": [
+        {
+          "id": 356723635,
+          "name": "Sammelkonto (Belege)",
+          "type": "String",
+          "reportId": "BA_PERSON_COLLECTIVE_ACCOUNT",
+          "required": false,
+          "active": true,
+          "contextType": "Person"
+        },
+        {
+          "id": 362523067,
+          "name": "Bahn-Card",
+          "type": "String",
+          "reportId": "362523067",
+          "required": false,
+          "active": true,
+          "contextType": "Person"
+        },
+        {
+          "id": 362523070,
+          "name": "gültig bis",
+          "type": "Date",
+          "reportId": "362523070",
+          "required": false,
+          "active": true,
+          "contextType": "Person"
+        },
+        {
+          "id": 359292770,
+          "name": "PL",
+          "type": "Boolean",
+          "reportId": "359292770",
+          "required": false,
+          "active": true,
+          "contextType": "Person"
+        },
+        {
+          "id": 357719614,
+          "name": "Zielauslastung (%)",
+          "type": "Long",
+          "reportId": "357719614",
+          "required": false,
+          "active": true,
+          "contextType": "Person"
+        },
+        {
+          "id": 359278116,
+          "name": "Fähigkeiten",
+          "type": "ListBox",
+          "reportId": "359278116",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "359278122",
+              "value": "PM"
+            },
+            {
+              "key": "359278124",
+              "value": "IT"
+            },
+            {
+              "key": "359278126",
+              "value": "Sonstiges"
+            }
+          ],
+          "contextType": "Person"
+        },
+        {
+          "id": 359292773,
+          "name": "PMO",
+          "type": "Boolean",
+          "reportId": "359292773",
+          "required": false,
+          "active": true,
+          "contextType": "Person"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758626321
+    },
+    "Department": {
+      "customFields": [
+        {
+          "id": 358331321,
+          "name": "Kreditor",
+          "type": "String",
+          "reportId": "358331321",
+          "required": false,
+          "active": true,
+          "contextType": "Department"
+        },
+        {
+          "id": 360953962,
+          "name": "Terms of payment",
+          "type": "ListBox",
+          "reportId": "360953962",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "360953776",
+              "value": "30 days"
+            },
+            {
+              "key": "360953778",
+              "value": "14 days"
+            }
+          ],
+          "contextType": "Department"
+        },
+        {
+          "id": 357952521,
+          "name": "Lieferantennummer",
+          "type": "String",
+          "reportId": "158594189",
+          "required": false,
+          "active": true,
+          "contextType": "Department"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758626575
+    },
+    "Invoice": {
+      "customFields": [
+        {
+          "id": 357952389,
+          "name": "Bis",
+          "type": "Date",
+          "reportId": "158594171",
+          "required": false,
+          "active": true,
+          "contextType": "Invoice"
+        },
+        {
+          "id": 357952374,
+          "name": "Auftragsnummer",
+          "type": "String",
+          "reportId": "158594159",
+          "required": false,
+          "active": true,
+          "contextType": "Invoice"
+        },
+        {
+          "id": 357952371,
+          "name": "Ansprechpartner",
+          "type": "String",
+          "reportId": "Ansprechpartner",
+          "required": false,
+          "active": true,
+          "contextType": "Invoice"
+        },
+        {
+          "id": 357952386,
+          "name": "Lieferzeitraum Von",
+          "type": "Date",
+          "reportId": "158594168",
+          "required": false,
+          "active": true,
+          "contextType": "Invoice"
+        },
+        {
+          "id": 357952380,
+          "name": "Bestellkennzeichen",
+          "type": "String",
+          "reportId": "158594162",
+          "required": false,
+          "active": true,
+          "contextType": "Invoice"
+        },
+        {
+          "id": 357952383,
+          "name": "Vergütung",
+          "type": "String",
+          "reportId": "158594165",
+          "required": false,
+          "active": true,
+          "contextType": "Invoice"
+        },
+        {
+          "id": 357952377,
+          "name": "Bestelldatum Auftrag",
+          "type": "Date",
+          "reportId": "158594174",
+          "required": false,
+          "active": true,
+          "contextType": "Invoice"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758626835
+    },
+    "Risk": {
+      "customFields": [
+        {
+          "id": 356952039,
+          "name": "Maßnahmen",
+          "type": "StructuredMemo",
+          "reportId": "BA_RISK_COUNTERMEASURE",
+          "required": false,
+          "active": true,
+          "contextType": "Risk"
+        },
+        {
+          "id": 356952051,
+          "name": "Verantwortlich",
+          "type": "StructuredMemo",
+          "reportId": "BA_RISK_RESPONSIBILITY",
+          "required": false,
+          "active": true,
+          "contextType": "Risk"
+        },
+        {
+          "id": 358181168,
+          "name": "Risikotyp",
+          "type": "ListBox",
+          "reportId": "358181168",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": "--bitte wählen--"
+            },
+            {
+              "key": "358181174",
+              "value": "Qualität"
+            },
+            {
+              "key": "358181176",
+              "value": "Kosten"
+            },
+            {
+              "key": "358181178",
+              "value": "Zeit"
+            },
+            {
+              "key": "358181180",
+              "value": "Technologie"
+            },
+            {
+              "key": "358181182",
+              "value": "Ressourcen"
+            }
+          ],
+          "contextType": "Risk"
+        },
+        {
+          "id": 358181171,
+          "name": "Risiko-Wert",
+          "type": "ListBox",
+          "reportId": "358181171",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "358181184",
+              "value": "10"
+            },
+            {
+              "key": "358181186",
+              "value": "20"
+            },
+            {
+              "key": "358181188",
+              "value": "30"
+            },
+            {
+              "key": "358181190",
+              "value": "40"
+            },
+            {
+              "key": "358181192",
+              "value": "50"
+            },
+            {
+              "key": "358181194",
+              "value": "60"
+            },
+            {
+              "key": "358181196",
+              "value": "70"
+            },
+            {
+              "key": "358181198",
+              "value": "80"
+            },
+            {
+              "key": "358181200",
+              "value": "90"
+            }
+          ],
+          "contextType": "Risk"
+        },
+        {
+          "id": 356952042,
+          "name": "Auf Termin",
+          "type": "StructuredMemo",
+          "reportId": "BA_RISK_DATE_EFFECT",
+          "required": false,
+          "active": true,
+          "contextType": "Risk"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758627089
+    },
+    "VoucherCollective": {
+      "customFields": [
+        {
+          "id": 357006002,
+          "name": "Ort (Ziel)",
+          "type": "String",
+          "reportId": "BA_VOUCHER_COLL_CITY_TARGET",
+          "required": false,
+          "active": true,
+          "contextType": "VoucherCollective"
+        },
+        {
+          "id": 357005999,
+          "name": "Ort (Start)",
+          "type": "String",
+          "reportId": "BA_VOUCHER_COLL_CITY_START",
+          "required": false,
+          "active": true,
+          "contextType": "VoucherCollective"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758627347
+    },
+    "Voucher": {
+      "customFields": [],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758627598
+    },
+    "Quote": {
+      "customFields": [
+        {
+          "id": 359078029,
+          "name": "Kopfbereich Text",
+          "type": "StructuredMemo",
+          "reportId": "359078029",
+          "required": false,
+          "active": true,
+          "contextType": "Quote"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758627851
+    },
+    "Proposal": {
+      "customFields": [
+        {
+          "id": 358635728,
+          "name": "Kunde",
+          "type": "ListBox",
+          "reportId": "358635728",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": "--- Unternehmensbereich ---"
+            },
+            {
+              "key": "167928068",
+              "value": "1A Technologies"
+            },
+            {
+              "key": "46400193",
+              "value": "ADAM Consulting"
+            },
+            {
+              "key": "29596454",
+              "value": "AEG Netcontrol"
+            },
+            {
+              "key": "114246609",
+              "value": "Ascom Deutschland"
+            },
+            {
+              "key": "359078024",
+              "value": "Ascom IT"
+            },
+            {
+              "key": "49116943",
+              "value": "Auto Europe GmbH"
+            },
+            {
+              "key": "31212257",
+              "value": "Bank BB"
+            },
+            {
+              "key": "630648",
+              "value": "Bankverein"
+            },
+            {
+              "key": "98160246",
+              "value": "Baustoffe GmbH"
+            },
+            {
+              "key": "98160245",
+              "value": "Bitmanager"
+            },
+            {
+              "key": "630644",
+              "value": "BSR-PEO"
+            },
+            {
+              "key": "264682301",
+              "value": "Computerhersteller"
+            },
+            {
+              "key": "11494308",
+              "value": "Concept Car"
+            },
+            {
+              "key": "630636",
+              "value": "DCVD TV"
+            },
+            {
+              "key": "630641",
+              "value": "Debitel"
+            },
+            {
+              "key": "73161958",
+              "value": "Direktion H"
+            },
+            {
+              "key": "630640",
+              "value": "DP IT Solution GmbH"
+            },
+            {
+              "key": "147181266",
+              "value": "Eventclass"
+            },
+            {
+              "key": "107383027",
+              "value": "FLEX business"
+            },
+            {
+              "key": "44960191",
+              "value": "FROX communication"
+            },
+            {
+              "key": "240492704",
+              "value": "f-Ton GmbH"
+            },
+            {
+              "key": "630649",
+              "value": "Fujitsu Siemens Computers"
+            },
+            {
+              "key": "104239985",
+              "value": "HGV"
+            },
+            {
+              "key": "104239986",
+              "value": "I-D Media"
+            },
+            {
+              "key": "100630829",
+              "value": "ieb"
+            },
+            {
+              "key": "345483098",
+              "value": "IMTB consulting"
+            },
+            {
+              "key": "104239987",
+              "value": "Industriehansa"
+            },
+            {
+              "key": "269795030",
+              "value": "INFORA GmbH"
+            },
+            {
+              "key": "630654",
+              "value": "Informatik AG"
+            },
+            {
+              "key": "285470403",
+              "value": "Ingenics AG"
+            },
+            {
+              "key": "133406866",
+              "value": "Intern"
+            },
+            {
+              "key": "168778991",
+              "value": "inubit AG"
+            },
+            {
+              "key": "630639",
+              "value": "Investitionsbank Berlin"
+            },
+            {
+              "key": "184644412",
+              "value": "ipc Talkenberger"
+            },
+            {
+              "key": "172032510",
+              "value": "ISD INTERSEROH Dienstleistungs GmbH"
+            },
+            {
+              "key": "104240707",
+              "value": "iTV Solutions (GIST)"
+            },
+            {
+              "key": "117134034",
+              "value": "Konstruktionen GmbH"
+            },
+            {
+              "key": "39394514",
+              "value": "Künstler Kommunikations- GmbH"
+            },
+            {
+              "key": "27703961",
+              "value": "Landförderung"
+            },
+            {
+              "key": "27703962",
+              "value": "Controlling"
+            },
+            {
+              "key": "27703968",
+              "value": "luK"
+            },
+            {
+              "key": "126560439",
+              "value": "Lebensversicherung a.G."
+            },
+            {
+              "key": "290861291",
+              "value": "LEITEK Informations- und Automatisierungstechnik"
+            },
+            {
+              "key": "192442462",
+              "value": "Lenzen & Co."
+            },
+            {
+              "key": "630660",
+              "value": "LNPE Sonstiges"
+            },
+            {
+              "key": "114247062",
+              "value": "Luxemburg AG"
+            },
+            {
+              "key": "630637",
+              "value": "MEP"
+            },
+            {
+              "key": "191675689",
+              "value": "MHP"
+            },
+            {
+              "key": "630655",
+              "value": "MPU Consult GmbH"
+            },
+            {
+              "key": "630659",
+              "value": "NDL Berlin"
+            },
+            {
+              "key": "232562560",
+              "value": "Nolte Küchen"
+            },
+            {
+              "key": "54927479",
+              "value": "Novum GmbH"
+            },
+            {
+              "key": "5278124",
+              "value": "OMD Germany GmbH"
+            },
+            {
+              "key": "118174974",
+              "value": "Ost-Leasing"
+            },
+            {
+              "key": "147181236",
+              "value": "panta rhei"
+            },
+            {
+              "key": "128624036",
+              "value": "People interactive"
+            },
+            {
+              "key": "118174975",
+              "value": "Peter-Schmidt Group"
+            },
+            {
+              "key": "324060338",
+              "value": "Ploetz & Zeller"
+            },
+            {
+              "key": "98160244",
+              "value": "Queen Media"
+            },
+            {
+              "key": "293562479",
+              "value": "Sammeldebitor"
+            },
+            {
+              "key": "170911530",
+              "value": "Springbock GmbH"
+            },
+            {
+              "key": "252453542",
+              "value": "Sprint TV GmbH"
+            },
+            {
+              "key": "47011787",
+              "value": "Stadtreinigung"
+            },
+            {
+              "key": "179794301",
+              "value": "Teamwerk"
+            },
+            {
+              "key": "630656",
+              "value": "Trust GmbH"
+            },
+            {
+              "key": "287390192",
+              "value": "Verein 1. Hilfe"
+            },
+            {
+              "key": "121544835",
+              "value": "XY AG"
+            },
+            {
+              "key": "163462381",
+              "value": "Zusatz GmbH"
+            },
+            {
+              "key": "260339930",
+              "value": "Freie Mitarbeiter"
+            },
+            {
+              "key": "46659507",
+              "value": "Hexabinaer"
+            },
+            {
+              "key": "18",
+              "value": "Unser Unternehmen"
+            },
+            {
+              "key": "548844522",
+              "value": "CEO"
+            },
+            {
+              "key": "253572636",
+              "value": "11 Personal"
+            },
+            {
+              "key": "27",
+              "value": "12 Finanzen/Steuerung/Controlling"
+            },
+            {
+              "key": "12",
+              "value": "13 IT-Services"
+            },
+            {
+              "key": "13",
+              "value": "14 Org/IT"
+            },
+            {
+              "key": "11",
+              "value": "15 Beratung"
+            },
+            {
+              "key": "253572633",
+              "value": "17 Förderung"
+            },
+            {
+              "key": "253572635",
+              "value": "CIO"
+            },
+            {
+              "key": "22",
+              "value": "Backendsysteme"
+            },
+            {
+              "key": "10",
+              "value": "Frontendsysteme"
+            },
+            {
+              "key": "206564303",
+              "value": "Qualitätsmanagement"
+            }
+          ],
+          "contextType": "Proposal"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758628106
+    },
+    "Todo": {
+      "customFields": [],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758628364
+    },
+    "Worktime": {
+      "customFields": [
+        {
+          "id": 358640089,
+          "name": "Land",
+          "type": "ListBox",
+          "reportId": "358640089",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "347092592",
+              "value": "Afghanistan"
+            },
+            {
+              "key": "347092588",
+              "value": "Ägypten"
+            },
+            {
+              "key": "347092260",
+              "value": "Albanien"
+            },
+            {
+              "key": "347092262",
+              "value": "Albanien Tirana"
+            },
+            {
+              "key": "347092594",
+              "value": "Algerien"
+            },
+            {
+              "key": "347092264",
+              "value": "alle anderen Länder"
+            },
+            {
+              "key": "347093223",
+              "value": "Andorra"
+            },
+            {
+              "key": "347092596",
+              "value": "Angola"
+            },
+            {
+              "key": "347093225",
+              "value": "Antigua und Barbuda"
+            },
+            {
+              "key": "347093221",
+              "value": "Äquatorialguinea"
+            },
+            {
+              "key": "347092598",
+              "value": "Argentinien"
+            },
+            {
+              "key": "347092600",
+              "value": "Armenien"
+            },
+            {
+              "key": "347092602",
+              "value": "Aserbaidschan"
+            },
+            {
+              "key": "347092590",
+              "value": "Äthiopien"
+            },
+            {
+              "key": "347092604",
+              "value": "Australien"
+            },
+            {
+              "key": "347092606",
+              "value": "Bahamas"
+            },
+            {
+              "key": "347092608",
+              "value": "Bahrain"
+            },
+            {
+              "key": "347092610",
+              "value": "Bangladesch"
+            },
+            {
+              "key": "347092612",
+              "value": "Barbados"
+            },
+            {
+              "key": "347092266",
+              "value": "Belgien"
+            },
+            {
+              "key": "347092614",
+              "value": "Belgien: Brüssel"
+            },
+            {
+              "key": "347092268",
+              "value": "Belgien Brüssel"
+            },
+            {
+              "key": "347092616",
+              "value": "Benin"
+            },
+            {
+              "key": "347092618",
+              "value": "Bolivien"
+            },
+            {
+              "key": "347093227",
+              "value": "Bosnien-Herzegovina"
+            },
+            {
+              "key": "347092270",
+              "value": "Bosnien-Herzegowina"
+            },
+            {
+              "key": "347092272",
+              "value": "Bosnien-Herzegownina Sarajevo"
+            },
+            {
+              "key": "347092620",
+              "value": "Bosnien und Herzegowina"
+            },
+            {
+              "key": "347093229",
+              "value": "Botsuana"
+            },
+            {
+              "key": "347092622",
+              "value": "Brasilien"
+            },
+            {
+              "key": "347093231",
+              "value": "Brasilien Rio de Janeiro"
+            },
+            {
+              "key": "347093233",
+              "value": "Brasilien Sao Paulo"
+            },
+            {
+              "key": "347092624",
+              "value": "Brunei"
+            },
+            {
+              "key": "347093235",
+              "value": "Brunei (Darussalam)"
+            },
+            {
+              "key": "347092274",
+              "value": "Bulgarien"
+            },
+            {
+              "key": "347092626",
+              "value": "Burkina Faso"
+            },
+            {
+              "key": "347092628",
+              "value": "Burundi"
+            },
+            {
+              "key": "347092630",
+              "value": "Chile"
+            },
+            {
+              "key": "347092276",
+              "value": "China"
+            },
+            {
+              "key": "347093237",
+              "value": "China Hongkong"
+            },
+            {
+              "key": "347092278",
+              "value": "China Hong Kong"
+            },
+            {
+              "key": "347092280",
+              "value": "China Kanton"
+            },
+            {
+              "key": "347092282",
+              "value": "China Peking"
+            },
+            {
+              "key": "347092284",
+              "value": "China Shanghai"
+            },
+            {
+              "key": "347093239",
+              "value": "China Taiwan"
+            },
+            {
+              "key": "347092632",
+              "value": "Costa Rica"
+            },
+            {
+              "key": "347093241",
+              "value": "Côte d'Ivoire"
+            },
+            {
+              "key": "357004631",
+              "value": "Daenemark"
+            },
+            {
+              "key": "357004633",
+              "value": "Daenemark (Kopenhagen)"
+            },
+            {
+              "key": "347092286",
+              "value": "Dänemark"
+            },
+            {
+              "key": "347092288",
+              "value": "Dänemark Kopenhagen"
+            },
+            {
+              "key": "1",
+              "value": "Deutschland"
+            },
+            {
+              "key": "347092634",
+              "value": "Deutschland:Grenzorte"
+            },
+            {
+              "key": "347093243",
+              "value": "Dominica"
+            },
+            {
+              "key": "347092636",
+              "value": "Dominikanische Republik"
+            },
+            {
+              "key": "347092638",
+              "value": "Dschibuti"
+            },
+            {
+              "key": "347092640",
+              "value": "Ecuador"
+            },
+            {
+              "key": "347092644",
+              "value": "Elfenbeinküste"
+            },
+            {
+              "key": "347092642",
+              "value": "El Salvador"
+            },
+            {
+              "key": "347093245",
+              "value": "Eritrea"
+            },
+            {
+              "key": "347092290",
+              "value": "Estland"
+            },
+            {
+              "key": "347092292",
+              "value": "Estland Tallin"
+            },
+            {
+              "key": "347093247",
+              "value": "Fidschi"
+            },
+            {
+              "key": "347092294",
+              "value": "Finnland"
+            },
+            {
+              "key": "347092296",
+              "value": "Frankreich"
+            },
+            {
+              "key": "347092646",
+              "value": "Frankreich:Monaco"
+            },
+            {
+              "key": "347092648",
+              "value": "Frankreich:Paris/Straßbrug"
+            },
+            {
+              "key": "358606509",
+              "value": "Frankreich (Lyon)"
+            },
+            {
+              "key": "358606511",
+              "value": "Frankreich (Marseille)"
+            },
+            {
+              "key": "357004635",
+              "value": "Frankreich (Paris)"
+            },
+            {
+              "key": "357004637",
+              "value": "Frankreich (Strassburg)"
+            },
+            {
+              "key": "358606507",
+              "value": "Frankreich (Straßburg)"
+            },
+            {
+              "key": "347092298",
+              "value": "Frankreich Paris"
+            },
+            {
+              "key": "347092300",
+              "value": "Frankreich Straßburg"
+            },
+            {
+              "key": "347092650",
+              "value": "Gabun"
+            },
+            {
+              "key": "347092652",
+              "value": "Gambia"
+            },
+            {
+              "key": "347092654",
+              "value": "Georgien"
+            },
+            {
+              "key": "347092656",
+              "value": "Ghana"
+            },
+            {
+              "key": "347093251",
+              "value": "Grenada"
+            },
+            {
+              "key": "347092302",
+              "value": "Griechenland"
+            },
+            {
+              "key": "358606513",
+              "value": "Griechenland (Athen)"
+            },
+            {
+              "key": "347093249",
+              "value": "Griechenland Athen"
+            },
+            {
+              "key": "347092304",
+              "value": "Griechenland Athen/Thessaloniki"
+            },
+            {
+              "key": "357004639",
+              "value": "Großbritanien"
+            },
+            {
+              "key": "357004641",
+              "value": "Großbritanien (Edingburgh)"
+            },
+            {
+              "key": "357004643",
+              "value": "Großbritanien (London)"
+            },
+            {
+              "key": "357004645",
+              "value": "Großbritanien (Manchester)"
+            },
+            {
+              "key": "358606537",
+              "value": "Großbritannien"
+            },
+            {
+              "key": "347092660",
+              "value": "Großbritannien:London"
+            },
+            {
+              "key": "347092658",
+              "value": "Großbritannien:Nordirland"
+            },
+            {
+              "key": "358606539",
+              "value": "Großbritannien (London)"
+            },
+            {
+              "key": "347092662",
+              "value": "Guatemala"
+            },
+            {
+              "key": "347092664",
+              "value": "Guinea"
+            },
+            {
+              "key": "347093253",
+              "value": "Guinea-Bissau"
+            },
+            {
+              "key": "347092666",
+              "value": "Guyana"
+            },
+            {
+              "key": "347092668",
+              "value": "Haiti"
+            },
+            {
+              "key": "347092670",
+              "value": "Honduras"
+            },
+            {
+              "key": "347092672",
+              "value": "Hongkong"
+            },
+            {
+              "key": "347092306",
+              "value": "Indien"
+            },
+            {
+              "key": "347093255",
+              "value": "Indien Bombay"
+            },
+            {
+              "key": "347093257",
+              "value": "Indien Kalkutta"
+            },
+            {
+              "key": "347092308",
+              "value": "Indien Neu-Delhi"
+            },
+            {
+              "key": "347092674",
+              "value": "Indonesien"
+            },
+            {
+              "key": "347092676",
+              "value": "Irak"
+            },
+            {
+              "key": "347092678",
+              "value": "Iran"
+            },
+            {
+              "key": "347093259",
+              "value": "Iran, Islamische Republik"
+            },
+            {
+              "key": "347092310",
+              "value": "Irland"
+            },
+            {
+              "key": "347092312",
+              "value": "Irland Dublin"
+            },
+            {
+              "key": "347092680",
+              "value": "Island"
+            },
+            {
+              "key": "347092682",
+              "value": "Israel"
+            },
+            {
+              "key": "347093261",
+              "value": "Israel Tel Aviv"
+            },
+            {
+              "key": "347092314",
+              "value": "Italien"
+            },
+            {
+              "key": "347092686",
+              "value": "Italien:Grenzorte"
+            },
+            {
+              "key": "347092684",
+              "value": "Italien:Mailand"
+            },
+            {
+              "key": "358606515",
+              "value": "Italien (Mailand)"
+            },
+            {
+              "key": "358606517",
+              "value": "Italien (Rom)"
+            },
+            {
+              "key": "347093263",
+              "value": "Italien Mailand"
+            },
+            {
+              "key": "347092316",
+              "value": "Italien Rom"
+            },
+            {
+              "key": "347092688",
+              "value": "Jamaika"
+            },
+            {
+              "key": "347092318",
+              "value": "Japan"
+            },
+            {
+              "key": "347093265",
+              "value": "Japan Tokio"
+            },
+            {
+              "key": "347092320",
+              "value": "Japan Tokyo"
+            },
+            {
+              "key": "347092690",
+              "value": "Jemen"
+            },
+            {
+              "key": "347092692",
+              "value": "Jordanien"
+            },
+            {
+              "key": "347092694",
+              "value": "Jugoslawien"
+            },
+            {
+              "key": "347093267",
+              "value": "Jugoslawien (Serbien/Montenegro)"
+            },
+            {
+              "key": "347092696",
+              "value": "Kambodscha"
+            },
+            {
+              "key": "347092698",
+              "value": "Kamerun"
+            },
+            {
+              "key": "347093269",
+              "value": "Kamerun Duala"
+            },
+            {
+              "key": "347092322",
+              "value": "Kanada"
+            },
+            {
+              "key": "347092700",
+              "value": "Kap Verde"
+            },
+            {
+              "key": "347092702",
+              "value": "Kasachstan"
+            },
+            {
+              "key": "347092704",
+              "value": "Katar"
+            },
+            {
+              "key": "347092706",
+              "value": "Kenia"
+            },
+            {
+              "key": "347093271",
+              "value": "Kirgisistan"
+            },
+            {
+              "key": "347092708",
+              "value": "Kirgistan"
+            },
+            {
+              "key": "347092710",
+              "value": "Kolumbien"
+            },
+            {
+              "key": "347093273",
+              "value": "Komoren"
+            },
+            {
+              "key": "347093275",
+              "value": "Kongo"
+            },
+            {
+              "key": "347092714",
+              "value": "Kongo, Demokratische Republik"
+            },
+            {
+              "key": "347093277",
+              "value": "Kongo, Demokratische Republik (Früher: Zaire)"
+            },
+            {
+              "key": "347092712",
+              "value": "Kongo, Republik"
+            },
+            {
+              "key": "347093279",
+              "value": "Korea, Demokratische Volksrepublik"
+            },
+            {
+              "key": "347093281",
+              "value": "Korea, Republik"
+            },
+            {
+              "key": "347092718",
+              "value": "Korea Demokratische Republik"
+            },
+            {
+              "key": "347092716",
+              "value": "Korea Republik"
+            },
+            {
+              "key": "347092324",
+              "value": "Kroatien"
+            },
+            {
+              "key": "347092326",
+              "value": "Kroatien Zagreb/Split"
+            },
+            {
+              "key": "347092720",
+              "value": "Kuba"
+            },
+            {
+              "key": "347092722",
+              "value": "Kuwait"
+            },
+            {
+              "key": "347092724",
+              "value": "Laos"
+            },
+            {
+              "key": "347093283",
+              "value": "Laotische Demokratische Volksrepublik"
+            },
+            {
+              "key": "347093285",
+              "value": "Lesotho"
+            },
+            {
+              "key": "347092328",
+              "value": "Lettland"
+            },
+            {
+              "key": "347092330",
+              "value": "Lettland Riga"
+            },
+            {
+              "key": "347092726",
+              "value": "Libanon"
+            },
+            {
+              "key": "347092728",
+              "value": "Liberia"
+            },
+            {
+              "key": "347092730",
+              "value": "Libyen"
+            },
+            {
+              "key": "347092732",
+              "value": "Liechtenstein"
+            },
+            {
+              "key": "347092332",
+              "value": "Litauen"
+            },
+            {
+              "key": "347092334",
+              "value": "Litauen Vilnius"
+            },
+            {
+              "key": "347092408",
+              "value": "London"
+            },
+            {
+              "key": "117134038",
+              "value": "Luxemburg"
+            },
+            {
+              "key": "347092734",
+              "value": "Madagaskar"
+            },
+            {
+              "key": "347092736",
+              "value": "Malawi"
+            },
+            {
+              "key": "347092738",
+              "value": "Malaysia"
+            },
+            {
+              "key": "347093287",
+              "value": "Malediven"
+            },
+            {
+              "key": "347092740",
+              "value": "Mali"
+            },
+            {
+              "key": "347092742",
+              "value": "Malta"
+            },
+            {
+              "key": "347093297",
+              "value": "Mamibia"
+            },
+            {
+              "key": "347092744",
+              "value": "Marokko"
+            },
+            {
+              "key": "347092746",
+              "value": "Mauretanien"
+            },
+            {
+              "key": "347092748",
+              "value": "Mauritius"
+            },
+            {
+              "key": "347093289",
+              "value": "Mazedonien"
+            },
+            {
+              "key": "347092750",
+              "value": "Mexiko"
+            },
+            {
+              "key": "347092752",
+              "value": "Moldau"
+            },
+            {
+              "key": "347093291",
+              "value": "Moldau, Republik"
+            },
+            {
+              "key": "347093293",
+              "value": "Monaco"
+            },
+            {
+              "key": "347092754",
+              "value": "Mongolei"
+            },
+            {
+              "key": "347092756",
+              "value": "Mosambik"
+            },
+            {
+              "key": "347092758",
+              "value": "Myanmar"
+            },
+            {
+              "key": "347093295",
+              "value": "Myanmar (früher Burma)"
+            },
+            {
+              "key": "347092760",
+              "value": "Namibia"
+            },
+            {
+              "key": "347092762",
+              "value": "Nepal"
+            },
+            {
+              "key": "347092764",
+              "value": "Neuseeland"
+            },
+            {
+              "key": "347092766",
+              "value": "Nicaragua"
+            },
+            {
+              "key": "347092338",
+              "value": "Niederlage Den Haag"
+            },
+            {
+              "key": "347092336",
+              "value": "Niederlande"
+            },
+            {
+              "key": "347092768",
+              "value": "Niederlandische Antillen"
+            },
+            {
+              "key": "347092770",
+              "value": "Niger"
+            },
+            {
+              "key": "347092772",
+              "value": "Nigeria"
+            },
+            {
+              "key": "347093299",
+              "value": "Nigeria Lagos"
+            },
+            {
+              "key": "347092340",
+              "value": "Norwegen"
+            },
+            {
+              "key": "357004647",
+              "value": "Oesterreich"
+            },
+            {
+              "key": "357004649",
+              "value": "Oesterreich (Wien)"
+            },
+            {
+              "key": "347092774",
+              "value": "Oman"
+            },
+            {
+              "key": "117134036",
+              "value": "Östereich"
+            },
+            {
+              "key": "347092342",
+              "value": "Österreich"
+            },
+            {
+              "key": "347093301",
+              "value": "Österreich Wien"
+            },
+            {
+              "key": "347092776",
+              "value": "Pakistan"
+            },
+            {
+              "key": "347093303",
+              "value": "Pakistan Islamabad"
+            },
+            {
+              "key": "347092778",
+              "value": "Palau"
+            },
+            {
+              "key": "347092780",
+              "value": "Panama"
+            },
+            {
+              "key": "347093305",
+              "value": "Papua-Neuguinea"
+            },
+            {
+              "key": "347092782",
+              "value": "Paraguay"
+            },
+            {
+              "key": "347092784",
+              "value": "Peru"
+            },
+            {
+              "key": "347092786",
+              "value": "Philippinen"
+            },
+            {
+              "key": "347092344",
+              "value": "Polen"
+            },
+            {
+              "key": "358606519",
+              "value": "Polen (Breslau)"
+            },
+            {
+              "key": "358606521",
+              "value": "Polen (Danzig)"
+            },
+            {
+              "key": "358606523",
+              "value": "Polen (Krakau)"
+            },
+            {
+              "key": "357004651",
+              "value": "Polen (Warschau, Krakau)"
+            },
+            {
+              "key": "358606525",
+              "value": "Polen (Warschau)"
+            },
+            {
+              "key": "347092346",
+              "value": "Polen Warschau"
+            },
+            {
+              "key": "347093307",
+              "value": "Polen Warschau, Krakau"
+            },
+            {
+              "key": "347092348",
+              "value": "Portugal"
+            },
+            {
+              "key": "358606527",
+              "value": "Portugal (Lissabon)"
+            },
+            {
+              "key": "347092350",
+              "value": "Portugal Lissabon"
+            },
+            {
+              "key": "347092788",
+              "value": "Ruanda"
+            },
+            {
+              "key": "347092352",
+              "value": "Rumänien"
+            },
+            {
+              "key": "347092354",
+              "value": "Rumänien Bukarest"
+            },
+            {
+              "key": "347093309",
+              "value": "Russische Föderation"
+            },
+            {
+              "key": "347093311",
+              "value": "Russische Föderation Moskau"
+            },
+            {
+              "key": "347093313",
+              "value": "Russische Föderation St. Petersburg"
+            },
+            {
+              "key": "347092356",
+              "value": "Russland"
+            },
+            {
+              "key": "347092790",
+              "value": "Russland:Moskau"
+            },
+            {
+              "key": "358606529",
+              "value": "Russland (Moskau (außer Gästewohnungen der Deutschen Botschaft))"
+            },
+            {
+              "key": "358606531",
+              "value": "Russland (Moskau (Gästewohnungen der Deutschen Botschaft))"
+            },
+            {
+              "key": "347092358",
+              "value": "Russland Moskau"
+            },
+            {
+              "key": "347092360",
+              "value": "Russland St. Petersburg"
+            },
+            {
+              "key": "347092792",
+              "value": "Sambia"
+            },
+            {
+              "key": "347093315",
+              "value": "Samoa"
+            },
+            {
+              "key": "347093317",
+              "value": "San Marino"
+            },
+            {
+              "key": "347093319",
+              "value": "Sao Tomé und Principe"
+            },
+            {
+              "key": "347092794",
+              "value": "Saudi-Arabien"
+            },
+            {
+              "key": "347093321",
+              "value": "Saudi-Arabien Riad"
+            },
+            {
+              "key": "347092362",
+              "value": "Schweden"
+            },
+            {
+              "key": "2",
+              "value": "Schweiz"
+            },
+            {
+              "key": "347092796",
+              "value": "Schweiz:Grenzorte"
+            },
+            {
+              "key": "357004653",
+              "value": "Schweiz (Bern)"
+            },
+            {
+              "key": "357004655",
+              "value": "Schweiz (Genf)"
+            },
+            {
+              "key": "347092798",
+              "value": "Senegal"
+            },
+            {
+              "key": "347092800",
+              "value": "Seychellen"
+            },
+            {
+              "key": "347092802",
+              "value": "Sierra Leone"
+            },
+            {
+              "key": "347092804",
+              "value": "Simbabwe"
+            },
+            {
+              "key": "347092364",
+              "value": "Singapur"
+            },
+            {
+              "key": "347092366",
+              "value": "Slowakei"
+            },
+            {
+              "key": "347092806",
+              "value": "Slowakei:Preßburg"
+            },
+            {
+              "key": "347092368",
+              "value": "Slowakei Bratislava"
+            },
+            {
+              "key": "347093323",
+              "value": "Slowakische Republik"
+            },
+            {
+              "key": "347092370",
+              "value": "Slowenien"
+            },
+            {
+              "key": "347092808",
+              "value": "Slowenien:Grenzorte"
+            },
+            {
+              "key": "347092372",
+              "value": "Slowenien Ljubljana"
+            },
+            {
+              "key": "347092810",
+              "value": "Somalia"
+            },
+            {
+              "key": "347092374",
+              "value": "Spanien"
+            },
+            {
+              "key": "358606533",
+              "value": "Spanien (Barcelona, Kanar. Inseln, Palma)"
+            },
+            {
+              "key": "358606535",
+              "value": "Spanien (Madrid)"
+            },
+            {
+              "key": "347093325",
+              "value": "Spanien Barcelona, Madrid"
+            },
+            {
+              "key": "347093327",
+              "value": "Spanien Kanarische Inseln"
+            },
+            {
+              "key": "347092376",
+              "value": "Spanien Madrid"
+            },
+            {
+              "key": "347093329",
+              "value": "Spanien Palma de Mallorca"
+            },
+            {
+              "key": "347092812",
+              "value": "Sri Lanka"
+            },
+            {
+              "key": "347093331",
+              "value": "St. Kitts und Nevis"
+            },
+            {
+              "key": "347093333",
+              "value": "St. Lucia"
+            },
+            {
+              "key": "347093335",
+              "value": "St. Vincent und die Grenadinen"
+            },
+            {
+              "key": "347092816",
+              "value": "Südafrika"
+            },
+            {
+              "key": "347092814",
+              "value": "Sudan"
+            },
+            {
+              "key": "347092818",
+              "value": "Suriname"
+            },
+            {
+              "key": "347093337",
+              "value": "Swasiland"
+            },
+            {
+              "key": "347092820",
+              "value": "Syrien"
+            },
+            {
+              "key": "347093339",
+              "value": "Syrien, Arabische Republik"
+            },
+            {
+              "key": "347092822",
+              "value": "Tadschikistan"
+            },
+            {
+              "key": "347092824",
+              "value": "Taiwan"
+            },
+            {
+              "key": "347092826",
+              "value": "Tansania"
+            },
+            {
+              "key": "347092378",
+              "value": "Thailand"
+            },
+            {
+              "key": "347092380",
+              "value": "Thailand Bangkok"
+            },
+            {
+              "key": "347092828",
+              "value": "Togo"
+            },
+            {
+              "key": "347093341",
+              "value": "Tonga"
+            },
+            {
+              "key": "347092830",
+              "value": "Trinidad und Tobago"
+            },
+            {
+              "key": "347092832",
+              "value": "Tschad"
+            },
+            {
+              "key": "347092834",
+              "value": "Tschechien"
+            },
+            {
+              "key": "347092836",
+              "value": "Tschechien:Grenzorte"
+            },
+            {
+              "key": "347092382",
+              "value": "Tschechische Republik"
+            },
+            {
+              "key": "347092384",
+              "value": "Tschechische Republik Prag"
+            },
+            {
+              "key": "347092838",
+              "value": "Tunesien"
+            },
+            {
+              "key": "347092386",
+              "value": "Türkei"
+            },
+            {
+              "key": "347093343",
+              "value": "Türkei Ankara, Izmir"
+            },
+            {
+              "key": "347092388",
+              "value": "Türkei Ankara/Izmir/Istanbul"
+            },
+            {
+              "key": "347092840",
+              "value": "Turkmenistan"
+            },
+            {
+              "key": "347092842",
+              "value": "Uganda"
+            },
+            {
+              "key": "347092390",
+              "value": "Ukraine"
+            },
+            {
+              "key": "347092392",
+              "value": "Ukraine Kiew"
+            },
+            {
+              "key": "347092394",
+              "value": "Ungarn"
+            },
+            {
+              "key": "347092844",
+              "value": "Ungarn:Budapest"
+            },
+            {
+              "key": "347092846",
+              "value": "Ungarn:Grenzorte"
+            },
+            {
+              "key": "347092396",
+              "value": "Ungarn Budapest"
+            },
+            {
+              "key": "347092848",
+              "value": "Uruguay"
+            },
+            {
+              "key": "347092850",
+              "value": "USA"
+            },
+            {
+              "key": "347092852",
+              "value": "USA:Washington"
+            },
+            {
+              "key": "347092854",
+              "value": "Usbekistan"
+            },
+            {
+              "key": "347093345",
+              "value": "Usbexistan"
+            },
+            {
+              "key": "347093347",
+              "value": "Vatikanstadt"
+            },
+            {
+              "key": "347092856",
+              "value": "Venezuela"
+            },
+            {
+              "key": "347092858",
+              "value": "Vereinigte Arabische Emirate"
+            },
+            {
+              "key": "347093349",
+              "value": "Vereinigte Arabische Emirate Dubai"
+            },
+            {
+              "key": "347092406",
+              "value": "Vereinigtes Königreich"
+            },
+            {
+              "key": "347093365",
+              "value": "Vereinigtes Königreich Edinburgh"
+            },
+            {
+              "key": "347093363",
+              "value": "Vereinigtes Königreich London"
+            },
+            {
+              "key": "347093361",
+              "value": "Vereinigtes Königreich und Nordirland"
+            },
+            {
+              "key": "347093351",
+              "value": "Vereinigte Staaten"
+            },
+            {
+              "key": "347093353",
+              "value": "Vereinigte Staaten Boston, Washington"
+            },
+            {
+              "key": "347093355",
+              "value": "Vereinigte Staaten Houston, Miami"
+            },
+            {
+              "key": "347092400",
+              "value": "Vereinigte Staaten New York"
+            },
+            {
+              "key": "347093359",
+              "value": "Vereinigte Staaten Ney York Staat, Los Angeles"
+            },
+            {
+              "key": "347093357",
+              "value": "Vereinigte Staaten San Francisco"
+            },
+            {
+              "key": "347092402",
+              "value": "Vereinigte Staaten San Francisko"
+            },
+            {
+              "key": "347092398",
+              "value": "Vereinigte Staaten von Amerika"
+            },
+            {
+              "key": "347092404",
+              "value": "Vereinigte Staaten Washington"
+            },
+            {
+              "key": "347092860",
+              "value": "Vietnam"
+            },
+            {
+              "key": "347092862",
+              "value": "Weißrussland"
+            },
+            {
+              "key": "347092864",
+              "value": "Zentralafrikanische Republik"
+            },
+            {
+              "key": "347092410",
+              "value": "Zypern"
+            },
+            {
+              "key": "347093367",
+              "value": "Zypries"
+            }
+          ],
+          "contextType": "Worktime"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758628641
+    },
+    "StatusReport": {
+      "customFields": [
+        {
+          "id": 358642609,
+          "name": "Ziele für nächste Periode",
+          "type": "StructuredMemo",
+          "reportId": "BA_PSR_TODO_NEXT_PERIOD",
+          "required": false,
+          "active": true,
+          "contextType": "StatusReport"
+        },
+        {
+          "id": 359095460,
+          "name": "Eskalationsstufe",
+          "type": "ListBox",
+          "reportId": "359095460",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "359095463",
+              "value": "keine Eskalation notwendig"
+            },
+            {
+              "key": "359095465",
+              "value": "Lenkungsausschuss"
+            },
+            {
+              "key": "359095467",
+              "value": "Auftraggeber"
+            }
+          ],
+          "contextType": "StatusReport"
+        },
+        {
+          "id": 359095457,
+          "name": "Qualität",
+          "type": "ListBox",
+          "reportId": "359095457",
+          "required": false,
+          "active": true,
+          "options": [
+            {
+              "key": "null",
+              "value": ""
+            },
+            {
+              "key": "1",
+              "value": "Rot"
+            },
+            {
+              "key": "2",
+              "value": "Gelb"
+            },
+            {
+              "key": "3",
+              "value": "Grün"
+            }
+          ],
+          "contextType": "StatusReport"
+        },
+        {
+          "id": 358642606,
+          "name": "Erreichtes in aktueller Periode",
+          "type": "StructuredMemo",
+          "reportId": "BA_PSR_DONE_CURRENT_PERIOD",
+          "required": false,
+          "active": true,
+          "contextType": "StatusReport"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758628945
+    },
+    "QuotePosition": {
+      "customFields": [],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758629225
+    },
+    "Portfolio": {
+      "customFields": [
+        {
+          "id": 360642182,
+          "name": "Portfoliobeschreibung ausführlich",
+          "type": "StructuredMemo",
+          "reportId": "Portfoliodescription_sum",
+          "required": false,
+          "active": true,
+          "contextType": "Portfolio"
+        },
+        {
+          "id": 360365201,
+          "name": "Produktrelevant",
+          "type": "Boolean",
+          "reportId": "360365201",
+          "required": false,
+          "active": true,
+          "contextType": "Portfolio"
+        },
+        {
+          "id": 836738739,
+          "name": "Portfolio Summary Gruppe 4",
+          "type": "StructuredMemo",
+          "reportId": "836738739",
+          "required": false,
+          "active": true,
+          "contextType": "Portfolio"
+        },
+        {
+          "id": 832985499,
+          "name": "Portfoliostatus",
+          "type": "StructuredMemo",
+          "reportId": "Portfoliostatus_actual",
+          "required": false,
+          "active": true,
+          "contextType": "Portfolio"
+        }
+      ],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758629481
+    },
+    "Program": {
+      "customFields": [],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758629731
+    },
+    "Stakeholder": {
+      "customFields": [],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758629982
+    },
+    "ProjectResource": {
+      "customFields": [],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758630242
+    },
+    "Event": {
+      "customFields": [],
+      "status": {
+        "name": "OK",
+        "code": 200
+      },
+      "timestamp": 1768758630499
+    }
+  }
+}
